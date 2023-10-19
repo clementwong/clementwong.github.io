@@ -21,7 +21,7 @@ main:
   - title: "Blog (If this shows up, battery resources still doesn't work)"
     url: /year-archive/
   
-  - title: "Battery Resources"
+  - title: "Battery Resources (If this shows up, battery resources content still doesn't work)"
     url: /battery-resources/
 
   - title: "Press"

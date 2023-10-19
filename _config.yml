@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Rachel C. Kurchin, PhD"
+title                    : "Clement Wong"
 title_separator          : "-"
-name                     : &name "Rachel C. Kurchin, PhD"
-description              : &description "Assistant Research Professor at Carnegie Mellon"
-url                      : https://rkurchin.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Clement Wong"
+description              : &description "PhD Candidate at University of Michigan"
+url                      : https://clementwong.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "rkurchin.github.io"
+repository               : "clementwong.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,29 +80,29 @@ analytics:
 
 # Site Author
 author:
-  name             : "Rachel C. Kurchin"
+  name             : "Clement Wong"
   avatar           : "profile.png"
-  bio		   : "Assistant Research Professor at Carnegie Mellon"
-  cv		   : "https://rkurchin.github.io/files/Kurchin_CV.pdf"
-  location         : "Pittsburgh, PA"
+  bio          : "PhD Candidate at University of Michigan"
+  cv           : "https://clementwong8.github.io/files/ClementWong_CV.pdf"
+  location         : 
   employer         :
-  googlescholar    : "https://scholar.google.ch/citations?user=CSHe53oAAAAJ&hl=en&oi=ao"
-  email            : "rkurchin@cmu.edu"
+  googlescholar    : 
+  email            : "clemwong@umich.edu"
   researchgate     : "https://www.researchgate.net/profile/Rachel_Kurchin"
   uri              :
   bitbucket        :
   codepen          :
   facebook         :
-  github           : "rkurchin"
+  github           : "clementwong8"
   keybase          :
   instagram        :
-  linkedin         : "https://www.linkedin.com/in/rachel-kurchin-4b618864/"
-  orcid            : "https://orcid.org/0000-0002-2147-4809"
+  linkedin         : "https://www.linkedin.com/in/clementwong8/"
+  orcid            :
   pinterest        :
-  ravelry          : "https://www.ravelry.com/projects/FiberFiend6891"
+  ravelry          :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
-  strava           : "https://www.strava.com/athletes/4506195"
-  twitter          : "rachel_kurchin"
+  strava           : "https://www.strava.com/athletes/8256312"
+  twitter          : #"rachel_kurchin"
   weibo            :
   xing             :
   youtube          :

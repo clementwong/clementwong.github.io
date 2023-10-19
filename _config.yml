@@ -83,20 +83,20 @@ author:
   name             : "Clement Wong"
   avatar           : "profile.png"
   bio          : "PhD Candidate at University of Michigan"
-  cv           : "https://clementwong8.github.io/files/ClementWong_CV.pdf"
+  cv           : "https://clementwong.github.io/files/ClementWong_CV.pdf"
   location         : 
   employer         :
   googlescholar    : 
   email            : "clemwong@umich.edu"
-  researchgate     : "https://www.researchgate.net/profile/Rachel_Kurchin"
+  researchgate     : #"https://www.researchgate.net/profile/Rachel_Kurchin"
   uri              :
   bitbucket        :
   codepen          :
   facebook         :
-  github           : "clementwong8"
+  github           : "clementwong"
   keybase          :
   instagram        :
-  linkedin         : "https://www.linkedin.com/in/clementwong8/"
+  linkedin         : "clementwong8"
   orcid            :
   pinterest        :
   ravelry          :

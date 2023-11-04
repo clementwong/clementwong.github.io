@@ -1,7 +1,7 @@
 # main links links
 main:
-  - title: "Publications"
-    url: /publications/
+  # - title: "Publications"
+  #   url: /publications/
 
   #- title: "Presentations"
   #  url: /presentations/
@@ -12,20 +12,17 @@ main:
 #  - title: "Posters"
 #    url: /posters/
 
-  - title: "Teaching"
-    url: /teaching/
+  # - title: "Teaching"
+  #   url: /teaching/
 
 #  - title: "Service"
 #    url: /service/
 
-  - title: "Blog (If this shows up, battery resources still doesn't work)"
+  - title: "Blog"
     url: /year-archive/
-  
-  - title: "Battery Resources (If this shows up, battery resources content still doesn't work 2)"
-    url: /battery-resources/
 
-  - title: "Press"
-    url: /press/
+  # - title: "Press"
+  #   url: /press/
 
 #  - title: "Tools"
 #    url: /tools/

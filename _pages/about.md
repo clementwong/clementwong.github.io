@@ -10,8 +10,6 @@ redirect_from:
 
 {% include base_path %}
 
-I am a PhD Candidate at University of Michigan. My current research is on degradation diagnostics and fault detection of lithium-ion battery systems connected to the grid. My research interest lies in the intersection of batteries, data science, and and machine learning, where I am accelerating the development and deployment of batteries. 
+I am a PhD Candidate at University of Michigan. My current research is on degradation diagnostics and fault detection of lithium-ion battery systems connected to the grid. My research interest lies in the intersection of batteries, data science, and and machine learning, where I am working improving the operations and safety of batteries. 
 
-Here, you can find more information about my work and my blog where I often post about batteries, data science, and machine learning. 
-
-You can also find personal information about me, particularly my passion for endurance sports. 
+More information about me and my work will be posted soon!

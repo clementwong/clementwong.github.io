@@ -72,19 +72,19 @@ Prettier formatting is enforced by CI (`prettier.yml`) and will fail PRs if skip
 
 ## Common Pitfalls
 
-| Problem | Cause | Fix |
-|---|---|---|
-| No CSS/styling after deploy | Wrong `url`/`baseurl` | Fix both values in `_config.yml`, clear browser cache |
+| Problem                             | Cause                   | Fix                                                                  |
+| ----------------------------------- | ----------------------- | -------------------------------------------------------------------- |
+| No CSS/styling after deploy         | Wrong `url`/`baseurl`   | Fix both values in `_config.yml`, clear browser cache                |
 | "Zero vectors cannot be normalized" | Empty blog post content | Add meaningful content, or set `related_posts: false` in frontmatter |
-| Port 8080 in use | Existing container | `docker compose down` |
-| PR fails prettier check | Code not formatted | `npx prettier . --write` before committing |
+| Port 8080 in use                    | Existing container      | `docker compose down`                                                |
+| PR fails prettier check             | Code not formatted      | `npx prettier . --write` before committing                           |
 
 ## Instruction Files by File Type
 
-| File Type | Instruction File |
-|---|---|
-| Markdown (`_posts/`, `_pages/`) | `.github/instructions/markdown-content.instructions.md` |
-| YAML config | `.github/instructions/yaml-configuration.instructions.md` |
-| BibTeX | `.github/instructions/bibtex-bibliography.instructions.md` |
-| Liquid templates | `.github/instructions/liquid-templates.instructions.md` |
-| JavaScript | `.github/instructions/javascript-scripts.instructions.md` |
+| File Type                       | Instruction File                                           |
+| ------------------------------- | ---------------------------------------------------------- |
+| Markdown (`_posts/`, `_pages/`) | `.github/instructions/markdown-content.instructions.md`    |
+| YAML config                     | `.github/instructions/yaml-configuration.instructions.md`  |
+| BibTeX                          | `.github/instructions/bibtex-bibliography.instructions.md` |
+| Liquid templates                | `.github/instructions/liquid-templates.instructions.md`    |
+| JavaScript                      | `.github/instructions/javascript-scripts.instructions.md`  |

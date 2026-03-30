@@ -180,7 +180,7 @@ npx prettier . --write
 
 ### 3. About Page Content
 
-**Files:** `_pages/about.md`, `assets/img/Clement_Wong_Profile_Picture_UMich.jpg`
+**Files:** `_pages/about.md`, `assets/img/prof_pic.jpg`
 
 - Update biography and profile picture
 - Customize news section visibility
@@ -541,7 +541,7 @@ Help users avoid these frequent errors:
 | User wants to...        | Files to modify                                                     | Key documentation                  |
 | ----------------------- | ------------------------------------------------------------------- | ---------------------------------- |
 | Change personal info    | `_config.yml`, `_pages/about.md`                                    | CUSTOMIZE.md § Configuration       |
-| Add profile picture     | `assets/img/Clement_Wong_Profile_Picture_UMich.jpg`                 | CUSTOMIZE.md § About page          |
+| Add profile picture     | `assets/img/prof_pic.jpg`                 | CUSTOMIZE.md § About page          |
 | Update CV               | `_data/cv.yml` (RenderCV) or `assets/json/resume.json` (JSONResume) | CUSTOMIZE.md § Modifying CV        |
 | Add publications        | `_bibliography/papers.bib`                                          | CUSTOMIZE.md § Adding publications |
 | Add blog post           | `_posts/YYYY-MM-DD-title.md`                                        | CUSTOMIZE.md § Blog posts          |

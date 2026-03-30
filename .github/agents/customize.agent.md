@@ -541,7 +541,7 @@ Help users avoid these frequent errors:
 | User wants to...        | Files to modify                                                     | Key documentation                  |
 | ----------------------- | ------------------------------------------------------------------- | ---------------------------------- |
 | Change personal info    | `_config.yml`, `_pages/about.md`                                    | CUSTOMIZE.md § Configuration       |
-| Add profile picture     | `assets/img/Clement_Wong_Profile_Picture_UMich.jpg`                                           | CUSTOMIZE.md § About page          |
+| Add profile picture     | `assets/img/Clement_Wong_Profile_Picture_UMich.jpg`                 | CUSTOMIZE.md § About page          |
 | Update CV               | `_data/cv.yml` (RenderCV) or `assets/json/resume.json` (JSONResume) | CUSTOMIZE.md § Modifying CV        |
 | Add publications        | `_bibliography/papers.bib`                                          | CUSTOMIZE.md § Adding publications |
 | Add blog post           | `_posts/YYYY-MM-DD-title.md`                                        | CUSTOMIZE.md § Blog posts          |

@@ -2,89 +2,38 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-## What This Repo Is
+@AGENTS.md
 
-**al-folio** — a Jekyll-based academic portfolio theme. The repo is both the theme template and a live site. Key features: publications (BibTeX/jekyll-scholar), CV, blog posts, projects, and Jupyter notebook embedding.
+## This Site
 
-## Essential Commands
+This is **Clement Wong's personal academic website**, built on the [al-folio](https://github.com/alshedivat/al-folio) Jekyll theme.
 
-### Local Development
+- **Live URL:** https://clementwong.github.io/al-folio
+- **`url`** in `_config.yml`: `https://clementwong.github.io`
+- **`baseurl`** in `_config.yml`: `/al-folio` (project site, not root)
 
-```bash
-# Start dev server (recommended)
-docker compose pull && docker compose up
-# Site at http://localhost:8080
+> The `scholar:` section in `_config.yml` still has the default `last_name: [Einstein]` placeholder — update it to `last_name: [Wong]` / `first_name: [Clement]` when personalizing the bibliography.
 
-# Rebuild after Dockerfile/dependency changes
-docker compose up --build
+## Key Architecture
 
-# Stop and free port 8080
-docker compose down
-```
+This is a **Jekyll static site** — there is no backend. All content is rendered at build time.
 
-### Pre-Commit (mandatory before every commit)
+| Concern                          | Where to edit                               |
+| -------------------------------- | ------------------------------------------- |
+| Site identity, features, plugins | `_config.yml`                               |
+| About/bio page                   | `_pages/about.md`                           |
+| Publications                     | `_bibliography/papers.bib`                  |
+| CV data                          | `_data/cv.yml` or `assets/json/resume.json` |
+| Social links                     | `_data/socials.yml`                         |
+| Co-author display names          | `_data/coauthors.yml`                       |
+| Blog posts                       | `_posts/YYYY-MM-DD-title.md`                |
+| News items                       | `_news/`                                    |
+| Projects                         | `_projects/`                                |
+| Styling overrides                | `_sass/` (SCSS)                             |
+| Reusable UI components           | `_includes/` (Liquid)                       |
+| Page templates                   | `_layouts/` (Liquid)                        |
 
-```bash
-# 1. Format code
-npm install --save-dev prettier @shopify/prettier-plugin-liquid  # first time only
-npx prettier . --write
+## Before Committing
 
-# 2. Verify the build
-docker compose up --build
-# Visit http://localhost:8080 — check navigation, pages, images, dark mode
-```
-
-Prettier formatting is enforced by CI (`prettier.yml`) and will fail PRs if skipped.
-
-## Architecture & Key Files
-
-### Configuration
-
-- **`_config.yml`** — primary config: `url`, `baseurl`, feature flags (`enabled: true/false`), author info. `url` + `baseurl` must be set correctly together or CSS/assets won't load.
-- **`_data/`** — YAML data: `socials.yml`, `cv.yml`, `coauthors.yml`, `repositories.yml`, `venues.yml`
-- **`_bibliography/papers.bib`** — BibTeX source for the publications page (processed by jekyll-scholar)
-
-### Content Directories
-
-- `_posts/` — blog posts, filename format `YYYY-MM-DD-title.md`
-- `_pages/` — static pages (about, cv, publications, projects, teaching)
-- `_projects/` — project showcase entries
-- `_news/` — news/announcements
-- `_teachings/` — course entries
-
-### Templates & Styling
-
-- `_layouts/` — page layouts (`about.liquid`, `post.liquid`, `bib.liquid`, `distill.liquid`, `cv.liquid`)
-- `_includes/` — reusable Liquid components
-- `_sass/` — SCSS stylesheets
-- `_scripts/` — JavaScript
-
-### CI/CD
-
-- **`deploy.yml`** — builds with `JEKYLL_ENV=production`, runs purgecss, deploys to `gh-pages` branch
-- **`prettier.yml`** — formatting gate; fails PRs on unformatted code
-
-## Critical Config Rules
-
-- **Personal site:** `url: https://username.github.io` + `baseurl:` (empty)
-- **Project site:** `url: https://username.github.io` + `baseurl: /repo-name/`
-- Quote YAML strings containing `:`, `&`, or `#`: `title: "My: Cool Site"`
-
-## Common Pitfalls
-
-| Problem                             | Cause                   | Fix                                                                  |
-| ----------------------------------- | ----------------------- | -------------------------------------------------------------------- |
-| No CSS/styling after deploy         | Wrong `url`/`baseurl`   | Fix both values in `_config.yml`, clear browser cache                |
-| "Zero vectors cannot be normalized" | Empty blog post content | Add meaningful content, or set `related_posts: false` in frontmatter |
-| Port 8080 in use                    | Existing container      | `docker compose down`                                                |
-| PR fails prettier check             | Code not formatted      | `npx prettier . --write` before committing                           |
-
-## Instruction Files by File Type
-
-| File Type                       | Instruction File                                           |
-| ------------------------------- | ---------------------------------------------------------- |
-| Markdown (`_posts/`, `_pages/`) | `.github/instructions/markdown-content.instructions.md`    |
-| YAML config                     | `.github/instructions/yaml-configuration.instructions.md`  |
-| BibTeX                          | `.github/instructions/bibtex-bibliography.instructions.md` |
-| Liquid templates                | `.github/instructions/liquid-templates.instructions.md`    |
-| JavaScript                      | `.github/instructions/javascript-scripts.instructions.md`  |
+1. Run `npx prettier . --write` (install once: `npm install --save-dev prettier @shopify/prettier-plugin-liquid`)
+2. Verify the build locally with `docker compose up --build` and visit http://localhost:8080

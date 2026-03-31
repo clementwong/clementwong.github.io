@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Engineer. Energy. Climate. Runner. Cyclist. 
+subtitle: Engineer. Energy. Runner. Cyclist. 
 
 profile:
   align: right
@@ -27,9 +27,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I’m an engineer with deep passion for developing and deploying clean energy technologies. I recently completed my PhD from the University of Michigan, where my research sat the intersection of machine learning, data science, and physics to assess lithium-ion batteries degrade under a given application in order to improve their performance and safety. I worked at the Toyota Research Institute, collaborating jointly with the Energy and Materials and Human-Centered AI teams, to develop user-centric vehicle-to-grid strategies and evaluated the effects of these strategies on battery degradation and vehicle usability ([paper](https://arxiv.org/abs/2603.10880)). I have collaborated with LG Energy Solution’s Battery AI Diagnostics team on diagnosing and modeling grid-connected lithium-ion battery modules to enhance the safety and scalability of their modules.
+I’m an engineer with a deep passion for developing and deploying energy technologies. I recently completed my PhD at the University of Michigan, where my research sat at the intersection of machine learning, data science, and physics. Specifically, I focused on assessing how lithium-ion batteries degrade under various applications to improve their overall performance and safety.
 
-In my free time, I am an avid runner and cyclist. I love getting people together for long runs or rides and exploring new places (with a café stop somewhere along the route). See `fun` as I begin documenting new adventures
+I've worked at the Toyota Research Institute, collaborating jointly with the Energy and Materials and Human-Centered AI teams, to develop user-centric vehicle-to-grid strategies and evaluatethe effects their effects on both battery degradation and vehicle usability ([read the paper](https://arxiv.org/abs/2603.10880)). I have also collaborated with LG Energy Solution’s Battery AI Diagnostics team on diagnosing and modeling grid-connected lithium-ion battery modules to enhance their safety and scalability
+
+In my free time, I am an avid runner and cyclist. I love getting people together for long runs or rides and exploring new places (with a café stop somewhere along the route). 
 
 Fun fact: I once biked across America from South Carolina to California!
 

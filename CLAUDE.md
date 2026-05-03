@@ -8,7 +8,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is **Clement Wong's personal academic website**, built on the [al-folio](https://github.com/alshedivat/al-folio) Jekyll theme.
 
-- **Live URL:** https://clementwong.github.io/al-folio
+- **Live URL:** https://clementwong.github.io/
 - **`url`** in `_config.yml`: `https://clementwong.github.io`
 - **`baseurl`** in `_config.yml`: `/al-folio` (project site, not root)
 

@@ -6,7 +6,7 @@ nav: false #true
 nav_order: 1
 pagination:
   enabled: true
-  collection: posts
+  collection: posts-published
   permalink: /page/:num/
   per_page: 5
   sort_field: date
@@ -56,7 +56,7 @@ pagination:
   </div>
   {% endif %}
 
-{% assign featured_posts = site.posts | where: "featured", "true" %}
+{% assign featured_posts = site['posts-published'] | where: "featured", "true" %}
 {% if featured_posts.size > 0 %}
 <br>
 
@@ -106,7 +106,7 @@ pagination:
     {% if page.pagination.enabled %}
       {% assign postlist = paginator.posts %}
     {% else %}
-      {% assign postlist = site.posts %}
+      {% assign postlist = site['posts-published'] %}
     {% endif %}
 
     {% for post in postlist %}

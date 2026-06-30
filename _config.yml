@@ -153,6 +153,11 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
+  posts-published:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
+    sort_by: date
+    order: reverse
   books:
     output: true
   news:
@@ -236,6 +241,12 @@ defaults:
       path: "assets"
     values:
       sitemap: false
+  - scope:
+      path: "_posts-published"
+      type: "posts-published"
+    values:
+      layout: post
+      comments: false
 
 sass:
   style: compressed

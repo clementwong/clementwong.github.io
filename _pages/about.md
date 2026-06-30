@@ -14,7 +14,7 @@ profile:
     # <p>Your City, State 12345</p>
 
 selected_papers: false #true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: false #true # includes a list of news items
@@ -27,9 +27,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I’m an engineer with a deep passion for developing and deploying energy technologies. I recently completed my PhD at the [University of Michigan](https://umich.edu/), where my research sat at the intersection of machine learning, data science, and battery physics. Specifically, I focused on assessing how lithium-ion batteries degrade under various applications to improve their overall performance and safety.
+I’m an engineer with a deep passion for developing and deploying energy technologies. I recently completed my PhD in Mechanical Engineering at the [University of Michigan](https://umich.edu/), where my research sat at the intersection of machine learning, data science, and battery physics. Specifically, I focused on assessing how lithium-ion batteries degrade under various applications to improve their overall performance and safety.
 
-I've worked at the [Toyota Research Institute](https://www.tri.global/), collaborating jointly with the Energy and Materials and Human-Centered AI teams, to develop user-centric vehicle-to-grid strategies and evaluatethe effects their effects on both battery degradation and vehicle usability ([read the paper](https://arxiv.org/abs/2603.10880)). I have also collaborated with [LG Energy Solution](https://www.lgensol.com/en/index)’s Battery AI Diagnostics team on diagnosing and modeling grid-connected lithium-ion battery modules to enhance their safety and scalability.
+I've worked at the [Toyota Research Institute](https://www.tri.global/), collaborating jointly with the Energy and Materials and Human-Centered AI teams, to develop user-centric vehicle-to-grid strategies and evaluate the effects their effects on both battery degradation and vehicle usability ([read the paper](https://arxiv.org/abs/2603.10880)). I have also collaborated with [LG Energy Solution](https://www.lgensol.com/en/index)’s Battery AI Diagnostics team on diagnosing and modeling grid-connected lithium-ion battery modules to enhance their safety and scalability.
+
+I did my undergraduate at [Carnegie Mellon University](https://www.cmu.edu/), double majoring in Mechanical Engineering and Engineering and Public Policy. 
 
 In my free time, I am an avid runner and cyclist. I love getting people together for long runs or rides and exploring new places (with a café stop somewhere along the route).
 

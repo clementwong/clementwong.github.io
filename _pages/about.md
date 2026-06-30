@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Engineer. Energy. Runner. Cyclist. 
+subtitle: Engineer. Energy. Runner. Cyclist.
 
 profile:
   align: right
@@ -31,7 +31,6 @@ I’m an engineer with a deep passion for developing and deploying energy techno
 
 I've worked at the [Toyota Research Institute](https://www.tri.global/), collaborating jointly with the Energy and Materials and Human-Centered AI teams, to develop user-centric vehicle-to-grid strategies and evaluatethe effects their effects on both battery degradation and vehicle usability ([read the paper](https://arxiv.org/abs/2603.10880)). I have also collaborated with [LG Energy Solution](https://www.lgensol.com/en/index)’s Battery AI Diagnostics team on diagnosing and modeling grid-connected lithium-ion battery modules to enhance their safety and scalability.
 
-In my free time, I am an avid runner and cyclist. I love getting people together for long runs or rides and exploring new places (with a café stop somewhere along the route). 
+In my free time, I am an avid runner and cyclist. I love getting people together for long runs or rides and exploring new places (with a café stop somewhere along the route).
 
 Fun fact: I once biked across America from South Carolina to California!
-

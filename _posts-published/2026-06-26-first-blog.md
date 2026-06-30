@@ -8,7 +8,6 @@ categories: []
 featured: false
 ---
 
-Reasons that I am starting this blog: 
+Reasons that I am starting this blog:
+
 - I want to have a place to document things that interest me, and reflect on them as well as share them with others
-
-

@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: Clement Wong, PhD | Energy | Batteries | AI | Running | Cycling
 first_name: Clement
 middle_name:
 last_name: Wong
@@ -90,8 +90,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Clement Wong, PhD | Energy | Batteries | AI | Running | Cycling # blog_name will be displayed in your blog page
+blog_description: Writing on energy systems, AI, electrification, battery intelligence, running, and cycling.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -289,8 +289,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Wong]
+  first_name: [Clement, C.]
 
   style: apa
   locale: en
